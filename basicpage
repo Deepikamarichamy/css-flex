@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRIBUTE TO MSD</title>
+</head>
+<style>
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap; /* Allow images to wrap to the next line */
+    justify-content: space-around; /* Space out images evenly */
+    max-width: 1200px; /* Limit the maximum width of the gallery */
+}
+
+.image-gallery img {
+    max-width: 50%; /* Make sure images are responsive */
+    height: 100px; /* Maintain aspect ratio */
+    margin: 10px; /* Space between images */
+    flex: 1 0 21%; /* Flex-grow, flex-shrink, flex-basis */
+    box-sizing: border-box;
+    /* Include padding and margin in width calculation */
+}
+.right-image {
+     
+    position: absolute; /* Absolute positioning */
+    top: 0; /* Align image to the top */
+    right: 0; /* Align image to the right */
+    width: 150px; /* Set a specific width for the image */
+    margin: 10px; /* Optional: margin around the image */
+} /* Set a width for the image */
+.top-left {
+     
+     position: absolute; /* Absolute positioning */
+     top: 0; /* Align image to the top */
+     left: 0; /* Align image to the right */
+}
+
+</style>
+<body>
+    <img src="https://tse4.mm.bing.net/th?id=OIP.jrZY0LYN9_bqXLchgHEXkAHaEo&pid=Api&P=0&h=180" class="right-image" width="100px" height="100px">
+    <nav>
+    <a href="https://r.search.yahoo.com/_ylt=AwrKB3O1r_tmagQA1127HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1728980149/RO=10/RU=https%3a%2f%2fen.wikipedia.org%2fwiki%2fMS_Dhoni/RK=2/RS=eqhNGxFngWYVPsp9J0Lt12_4yNA-" class="top-left"><p>about dhoni</p></a>
+    </nav>
+    <div class="image-gallery">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.teHqNGlvS1EhnVsw9oEnIQHaHa&pid=Api&P=0&h=180" alt="Image 1">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.4z2feTp_Mw25d-lmn1wMdQAAAA&pid=Api&P=0&h=180" alt="Image 2">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.I_06S6MYmA9xFtpa8A2lmQHaEo&pid=Api&P=0&h=180" alt="Image 3">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.teHqNGlvS1EhnVsw9oEnIQHaHa&pid=Api&P=0&h=180" alt="Image 4">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.egnDxrDxxFISkPLTBsvzWQHaFj&pid=Api&P=0&h=180" alt="Image 5">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.egnDxrDxxFISkPLTBsvzWQHaFj&pid=Api&P=0&h=180" alt="Image 6">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.egnDxrDxxFISkPLTBsvzWQHaFj&pid=Api&P=0&h=180" alt="Image 7">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.egnDxrDxxFISkPLTBsvzWQHaFj&pid=Api&P=0&h=180" alt="Image 8">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.egnDxrDxxFISkPLTBsvzWQHaFj&pid=Api&P=0&h=180" alt="Image 9">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.egnDxrDxxFISkPLTBsvzWQHaFj&pid=Api&P=0&h=180" alt="Image 10">
+    </div>
+</body>
+</html>
